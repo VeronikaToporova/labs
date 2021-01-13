@@ -13,10 +13,10 @@ namespace Nazv_organizaciy
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class knovoselovEntities : DbContext
+    public partial class vtoporovaEntities : DbContext
     {
-        public knovoselovEntities()
-            : base("name=knovoselovEntities")
+        public vtoporovaEntities()
+            : base("name=vtoporovaEntities")
         {
         }
     
