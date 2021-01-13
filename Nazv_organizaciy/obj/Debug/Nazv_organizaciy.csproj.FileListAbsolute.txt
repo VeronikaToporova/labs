@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.csprojAssemblyReference.cache
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\App.g.cs
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy_MarkupCompile.cache
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy_MarkupCompile.lref
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\bin\Debug\Nazv_organizaciy.exe.config
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\bin\Debug\Nazv_organizaciy.exe
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\bin\Debug\Nazv_organizaciy.pdb
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.g.resources
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.Properties.Resources.resources
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.csproj.GenerateResource.cache
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.exe
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\Nazv_organizaciy.pdb
+C:\Users\User\Desktop\i-31\Nazv_organizaciy\Nazv_organizaciy\obj\Debug\App.baml
