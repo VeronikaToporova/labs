@@ -34,7 +34,6 @@ namespace Nazv_orgsnizaciy
         public virtual ICollection<ClientService> ClientService { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ServicePhoto> ServicePhoto { get; set; }
-        // Service.cs
         public Uri ImageUri
         {
             get
@@ -42,12 +41,20 @@ namespace Nazv_orgsnizaciy
                 return new Uri(Path.Combine(Environment.CurrentDirectory, MainImagePath));
             }
         }
-        // Service.cs
         public string CostString
         {
             get
             {
                 return Cost.ToString("#.##");
+            }
+        }
+        public string DiscountString
+        {
+            get
+            {
+                string s2 = (Discount * 100).ToString();
+                string s1 = "%";
+                return s2 + s1;
             }
         }
 
@@ -62,7 +69,7 @@ namespace Nazv_orgsnizaciy
         {
             get
             {
-                return Discount > 0;
+                return Discount == 0;
             }
         }     
         public string CostTextDecoration

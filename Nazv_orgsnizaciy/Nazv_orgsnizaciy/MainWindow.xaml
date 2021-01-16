@@ -8,7 +8,7 @@
         FontFamily="Arial Black"
         Title="Услуги авто сервиса"
         MinHeight="300" MinWidth="300"
-        Height="450" Width="800">
+        Height="450" Width="1100">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
@@ -38,7 +38,7 @@
                     <Style.Triggers>
                         <DataTrigger 
                 Binding="{Binding HasDiscount}" 
-                Value="True">
+                Value="False">
                             <Setter 
                     Property="Background" 
                     Value="LightGreen"/>
@@ -51,27 +51,6 @@
             Width="250"
             Header="Наименование услуги"
             Binding="{Binding Title}"/>
-                <DataGridTextColumn 
-            Width="100"
-            Header="Стоимость"
-            Binding="{Binding Cost}"/>
-                <DataGridTextColumn 
-            Width="150"
-            Header="Продолжительность"
-            Binding="{Binding DurationInSeconds}"/>
-                <DataGridTemplateColumn 
-            Width="64"
-            Header="Картинки">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <!-- для отображения изображения использую геттер, который определен в МОДЕЛИ Service -->
-                            <Image 
-                        Height="64" 
-                        Width="64" 
-                        Source="{Binding ImageUri}" />
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
                 <DataGridTemplateColumn 
             Width="100"
             Header="Стоимость">
@@ -84,12 +63,35 @@
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
 
+               
+                <DataGridTextColumn 
+                    Width="150"
+                    Header="Продолжительность"
+                    Binding="{Binding DurationInSeconds}"/>
+                <DataGridTemplateColumn 
+                    Width="64"
+                    Header="Картинки">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image 
+                                Height="64" 
+                                Width="64" 
+                                Source="{Binding ImageUri}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+               
+
                 <DataGridTextColumn 
             Width="60"
             Header="Скидка"
-            Binding="{Binding Discount}"/>
-                
-              
+            Binding="{Binding DiscountString}"/>
+                <DataGridTextColumn 
+            Width="100"
+            Header="Стоимость со скидкой"
+            Binding="{Binding CostWithDiscount}"/>
+
+
             </DataGrid.Columns>
         </DataGrid>
         
